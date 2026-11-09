@@ -5,10 +5,10 @@ Indie builder of privacy-first, **100% client-side web tools** — everything ru
 | Project | What it is | Link |
 |---|---|---|
 | **DofuPDF** | ブラウザ内で完結するPDFパスワードツール（暗号化・解除、AES-256）| [dofupdf.com](https://dofupdf.com) · [repo](https://github.com/Jimsnote/dofupdf) |
-| **NoriPDF** | 한국어 클라이언트 사이드 PDF 툴박스 (브라우저에서만 처리, 업로드 없음) | [noripdf.com](https://noripdf.com) · [repo](https://github.com/Jimsnote/noripdf) |
-| **CoolPDF** | Free browser-based PDF toolkit (20 tools, 8 languages) | [getcoolpdf.com](https://getcoolpdf.com) |
 
-**Verify, don't trust:** open DevTools (F12) → Network tab while using any of these tools — you'll see zero file uploads. Or pull the source and build it yourself.
+**Verify, don't trust:** open DevTools (F12) → Network tab while using my tools — you'll see zero file uploads. Or pull the source and build it yourself.
+
+Earlier experiments (source archived, no live site): NoriPDF (Korean PDF toolkit, [repo](https://github.com/Jimsnote/noripdf)) · CoolPDF (multi-language PDF toolkit).
 
 Tech: TypeScript · Next.js · qpdf/pdf-lib compiled to WASM · Web Workers · Cloudflare
-- 📫 support@dofupdf.com
+- 📫 notes.zjm@gmail.com
